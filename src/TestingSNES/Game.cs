@@ -8,6 +8,8 @@ public static class Game
     [CustomFunctionName("main")]
     public static int Main()
     {
+        Video.SetScreenOn();
+
         while (true)
         {
             Interrupt.WaitForVBlank();
