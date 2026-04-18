@@ -1,0 +1,14 @@
+{
+  "AssemblyDirectory": ".",
+  "AssembliesToLoad": [
+    "DotnetSnes.Core.dll",
+    "TestingSNES.dll"
+  ],
+  "PluginAssembly": "DotnetSnes.Core.dll",
+  "OutputDirectory": ".",
+  "SingleGeneratedSourceFileName": "TestingSNES.c",
+  "MethodsToTranspile": [
+    "System.Int32 TestingSNES.Game::Main()"
+  ],
+  "GlobalsToTranspile": []
+}
